@@ -415,7 +415,8 @@ while running:
                     menupage=True
                     game=False
                     missilespeed=speed1
-                
+                if e.key == K_q:
+                    running = False
             elif e.type == KEYUP:
                 if e.key == K_RIGHT:
                     PRESS_RIGHT = False
@@ -559,8 +560,10 @@ while running:
                     PRESS_UP = False
                     PRESS_DOWN = False
                     PRESS_SPACE = False
-                                     
-                    
-                    
-                    
+
+                if e.key == K_q:
+                    running = False
+                    pygame.quit()
+                    exit()
+                                        
 quit()
