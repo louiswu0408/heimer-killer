@@ -41,7 +41,7 @@ pip install pygame
 ### 3. Clone this project
 
 ```pwsh
-git clone (https://github.com/louiswu0408/heimer-killer.git)
+git clone https://github.com/louiswu0408/heimer-killer.git
 ```
 
 Then go into the folder:
